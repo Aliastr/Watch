@@ -197,7 +197,7 @@
   gap: 15px;
   position: absolute;
   top: 80.47%;
-  left: 85.38%;
+  left: 76.38%;
   z-index: 1;
   width: 187px;
 }
@@ -228,7 +228,7 @@
   font-size: 32px;
   line-height: 43px;
   z-index: 1;
-  padding-top: 79px;
+  margin-top: 79px;
   color: #1B1A17;
 }
 .item .allItem {
@@ -542,4 +542,53 @@
   width: 496px;
   height: 944.01px;
   shape-outside: ellipse(40% 50% at left);
+}
+
+@media screen and (max-width: 1024px) {
+  .mainTitle .promoImg img {
+    z-index: 2;
+  }
+  .flexItem {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .sube {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .sube .seNews {
+    width: 50%;
+  }
+  .sube .sndImg {
+    display: none;
+  }
+  .footerFlex {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 0px;
+  }
+  .footerFlex .ftContain {
+    margin: 25px 0;
+    width: 22.5%;
+  }
+  .desc {
+    width: 100%;
+  }
+  .desc .ltDesk {
+    width: 34.26%;
+  }
+  .desc .ltDesk img {
+    width: 400px;
+  }
+  .desc .rtDesk {
+    width: 65.74%;
+  }
+  .desc .rtDesk .flexElem {
+    margin-left: 40%;
+  }
 }
