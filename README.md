@@ -12,9 +12,6 @@
     Flexbox
   </li>
     <li>
-    JavaScrypt
-  </li>
-    <li>
     Sass (в контексте SCSS)
   </li>
 </ul>
